@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime data (SQLite DBs, outbox .eml files, generated reports)
+data/
+*.db
+*.db-shm
+*.db-wal
+*.pdf
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
